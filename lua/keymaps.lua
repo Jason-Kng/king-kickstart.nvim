@@ -7,7 +7,7 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Go To File Directories (Netwrc)
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
-
+vim.keymap.set('n', '<leader>gh', '<cmd>:Alpha<cr>')
 -- Changing how many spaces are in a tab --
 vim.opt.softtabstop = 4
 vim.opt.tabstop = 4
